@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header .menuicn {
+    width: 30px;
+    cursor: pointer;
+}
+
+header .searchbar {
+    display: flex;
+    align-items: center;
+}
+
+header .searchbar input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+header .searchbtn img {
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header .message {
+    display: flex;
+    align-items: center;
+}
+
+header .message .circle {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+header .message img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+header .dp img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Navigation Styles */
+.navcontainer {
+    width: 300px; /* Increased width */
+    background-color: #222;
+    color: #fff;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.nav .nav-upper-options .nav-option {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.nav .nav-upper-options .nav-option:hover {
+    background-color: #444;
+}
+
+.nav .nav-upper-options .nav-option img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.nav .nav-upper-options .nav-option h3 {
+    margin: 0;
+}
+
+.nav .nav-upper-options .nav-option a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main Container Styles */
+.main-container {
+    display: flex;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.main .searchbar2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main .searchbar2 input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.main .searchbar2 .searchbtn img {
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Box Container Styles */
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 20px;
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box img {
+    width: 50px;
+}
+
+.topic-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.topic {
+    margin: 0;
+    color: #777;
+}
